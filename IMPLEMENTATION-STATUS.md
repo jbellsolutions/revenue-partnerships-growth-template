@@ -9,8 +9,8 @@
 | Hermes computer deployment | Installer for existing native runtime | Native reply, skill list, MCP test, owner entrypoint and revision receipts |
 | System One integration | Role/queue/gateway mapping specified | Implement recognized roles and adapter; preserve persistent identity and shared metering; live receipt |
 | Typed judgments | Two draft contracts included | Labeled examples, measured evaluation and owner-reviewed promotion |
-| Attio synchronization | Sole-writer charter and packet/readback requirements specified | Actual native credentials, schemas, ID map and reviewed production adapter |
-| ClickUp synchronization | Sole-writer charter and operating task rules specified | Actual native connection and reviewed adapter/readback |
+| Attio synchronization | Native bounded read MCP implemented; sole-writer packet/readback requirements specified | Actual native credentials, schemas, ID map and reviewed production adapter |
+| ClickUp synchronization | Native operating-task read MCP implemented; sole-writer rules specified | Actual native connection and reviewed adapter/readback |
 | Research access | Dossiers, routes and queries included | Authorized research tool/connection and source-level evidence |
 | Attribution/tracking | Review workflow specified | Approved provider, agreement, actual event readback and dispute process |
 | Scheduling | Daily/weekly/monthly workflows specified; no schedules enabled | Approved due-work routines, capacity, budget and pause/reconciliation behavior |

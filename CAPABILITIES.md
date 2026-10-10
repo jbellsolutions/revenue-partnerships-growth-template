@@ -10,8 +10,8 @@ Twelve reviewed skills in `skills/` cover intake, complete taxonomy mapping, act
 |---|---|---|
 | Hermes native skills, memory and file tools | Required | Isolated profile, skill discovery and rule injection verified |
 | relcore relationship MCP (included) | Required | Private SQLite/vault, no network credential; init/list/context/draft and stale-digest/suppression tests |
-| Attio official API or reviewed MCP | Required before CRM operation | Client workspace, schema/list mapping, read test, sole writer, exact diff and readback receipts |
-| ClickUp official API or reviewed MCP | Required before delivery sync | Client workspace/list/task mapping, read test, sole writer and readback |
+| Attio native bounded read MCP (included) | Required before CRM operation | Client workspace, schema/list mapping, read test, sole writer, exact diff and readback receipts |
+| ClickUp native task read MCP (included) | Required before delivery sync | Client workspace/list/task mapping, read test, sole writer and readback |
 | Browser/public research | Required before actual sourcing | Authorized public sources; private browser sessions isolated per client |
 | System One workforce integration | Required for workforce scheduling/typed routing | Role/queue/gateway adapters and live metering/evaluation receipts; currently specification only |
 | Affiliate tracking platform | Required before tracked conversions | Client-selected provider, approved terms, actual link/event readback; never invent a platform |
