@@ -41,3 +41,9 @@ A chat application's connected Attio/ClickUp account is not proof that the remot
 The upstream Affiliate Manager's old Orgo sizing/template pin is historical provenance. Current Orgo docs list `system/hermes-agent@1.1.13` on 1 vCPU/8 GB RAM; this overlay reuses the existing computer and does not upgrade or create it. See https://docs.orgo.ai/guides/hermes.
 
 Official integration references: https://docs.attio.com/rest-api/guides/webhooks and https://developer.clickup.com/docs/authentication. An Orgo computer has no public inbound webhook hostname; use authorized outbound polling or a separately reviewed HTTPS receiver. Attio webhook consumers must verify signatures and deduplicate at-least-once deliveries.
+
+## Tenant and software boundaries
+
+A named Hermes profile separates configuration, memory and sessions; it is **not an OS security boundary**. Profiles running as the same user can access sibling files if their tools permit it. This installation is a same-owner profile on an existing computer. Deliver unrelated service clients on separately governed OS users/containers/hosts with enforced filesystem and credential boundaries; prove that access to the other client's paths fails. The synthetic store-isolation test proves namespace separation only.
+
+Hermes' optional tirith command scanner is not installed on the first deployment; native Hermes reports that it falls back to pattern matching. This package exposes no terminal tool or external sender. If terminal capability is later requested, review scanner availability, tool scope and operating-system access before enabling it.
