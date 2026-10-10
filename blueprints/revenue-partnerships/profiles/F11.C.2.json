@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "partner-type-f11-c-2",
+  "type_id": "F11.C.2",
+  "name": "VIP tier",
+  "family_id": "F11",
+  "family": "House Partners",
+  "subcategory_id": "F11.C",
+  "subcategory": "Loyalty & expansion",
+  "definition": "Status tiers with perks",
+  "illustrative_example": "VIP client tier",
+  "knowledge_maturity": "generated_seed_requires_dossier_review",
+  "activation": "disabled",
+  "runtime_role": "proposed_partner_type_specialist",
+  "relationship_owner": "Assigned by Growth Director per client/relationship",
+  "avatar": "Decision-maker responsible for Status tiers with perks; verify role, authority and individual context.",
+  "ideal_partner_profile": {
+    "buyer_overlap": "Documented access to the client’s actual buyer ICP",
+    "type_evidence": "Status tiers with perks",
+    "readiness": "A real decision-maker, plausible incentive and feasible activation milestone"
+  },
+  "customer_icp": "Resolved from each private client program card; never inherited from another client",
+  "lead_opportunities": [
+    {
+      "hypothesis": "Investigate whether vip tier can reach the client’s buyer ICP through this motion: A client-authorized existing-relationship referral, advocacy or reactivation opportunity.",
+      "sources": [
+        "Client-authorized CRM/customer records",
+        "Owner-authorized referral and advocacy history",
+        "Client-approved internal community/program records"
+      ],
+      "queries": [
+        "\"VIP tier\" {buyer_topic} {region}",
+        "Status tiers with perks {buyer_topic} partner",
+        "\"Loyalty & expansion\" {offer_category}"
+      ],
+      "evidence_required": [
+        "Canonical organization/person and source URL",
+        "Actual buyer overlap and relevant recent activity",
+        "Observed channel/reach; unknown values stay unknown",
+        "Prior relationship, restrictions and feasible next step"
+      ]
+    }
+  ],
+  "commercial_model_reference": "Perks",
+  "commercial_terms_status": "Reference only; client owner must approve actual terms",
+  "qualification": {
+    "facts": [
+      "Identity/type match",
+      "Buyer overlap",
+      "Trust/reputation",
+      "Ability to activate"
+    ],
+    "hypotheses": [
+      "Mutual value exchange",
+      "Willingness",
+      "Expected commercial contribution"
+    ],
+    "exclusions": [
+      "Opt-out or restricted contact",
+      "Unresolved identity",
+      "Unsupported claims or unapproved terms",
+      "Conflicting active outreach",
+      "Commercial model outside client authority"
+    ]
+  },
+  "application": {
+    "status": "unreviewed_client_fit",
+    "reason": "Client-specific buyer overlap, economics and authority must be reviewed before activation.",
+    "buyer_icp_hypothesis": "Resolve from private program card"
+  },
+  "dream_tier": "Unassigned; relationship-level evidence and owner review required",
+  "context_card": "vault/30-Families/F11/F11.C/F11.C.2.md",
+  "job": {
+    "mission": "Research and grow appropriate VIP tier relationships for the reviewed client program.",
+    "business_brief": "Type F11.C.2: Status tiers with perks. Apply client-specific offer, buyer ICP and authority. Investigate whether vip tier can reach the client’s buyer ICP through this motion: A client-authorized existing-relationship referral, advocacy or reactivation opportunity.",
+    "success_criteria": "Supported identities and fit; sourced opportunity brief, fresh relationship context, owner and next action. No invented outcome.",
+    "authority": "Research public/authorized sources and prepare internal evidence, context and drafts. Do not send, publish, accept partners, promise terms, spend, change attribution or release payouts. Use fresh relationship context; observe suppression. Live activation requires reviewed client authority.",
+    "timezone": "America/New_York",
+    "start_hour": 9,
+    "hours_per_day": 8,
+    "weekdays": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "child_limit": 0
+  },
+  "source": "https://map.truerevenuepartnerships.com/resources/partnership-map/"
+}

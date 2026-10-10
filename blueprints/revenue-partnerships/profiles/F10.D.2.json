@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "partner-type-f10-d-2",
+  "type_id": "F10.D.2",
+  "name": "Faith / civic community partnership",
+  "family_id": "F10",
+  "family": "Cause & Nonprofit Partners",
+  "subcategory_id": "F10.D",
+  "subcategory": "Community & institutional partnerships",
+  "definition": "Member discount through churches or civic groups",
+  "illustrative_example": "Mover offers church-member discount",
+  "knowledge_maturity": "generated_seed_requires_dossier_review",
+  "activation": "disabled",
+  "runtime_role": "proposed_partner_type_specialist",
+  "relationship_owner": "Assigned by Growth Director per client/relationship",
+  "avatar": "Decision-maker responsible for Member discount through churches or civic groups; verify role, authority and individual context.",
+  "ideal_partner_profile": {
+    "buyer_overlap": "Documented access to the client’s actual buyer ICP",
+    "type_evidence": "Member discount through churches or civic groups",
+    "readiness": "A real decision-maker, plausible incentive and feasible activation milestone"
+  },
+  "customer_icp": "Resolved from each private client program card; never inherited from another client",
+  "lead_opportunities": [
+    {
+      "hypothesis": "Investigate whether faith / civic community partnership can reach the client’s buyer ICP through this motion: A mission-aligned partnership brief; donation, institutional and fundraising terms require owner review.",
+      "sources": [
+        "Nonprofit and community program pages",
+        "Public fundraiser/event directories",
+        "Institutional partnership pages"
+      ],
+      "queries": [
+        "\"Faith / civic community partnership\" {buyer_topic} {region}",
+        "Member discount through churches or civic groups {buyer_topic} partner",
+        "\"Community & institutional partnerships\" {offer_category}"
+      ],
+      "evidence_required": [
+        "Canonical organization/person and source URL",
+        "Actual buyer overlap and relevant recent activity",
+        "Observed channel/reach; unknown values stay unknown",
+        "Prior relationship, restrictions and feasible next step"
+      ]
+    }
+  ],
+  "commercial_model_reference": "Discount as referral channel",
+  "commercial_terms_status": "Reference only; client owner must approve actual terms",
+  "qualification": {
+    "facts": [
+      "Identity/type match",
+      "Buyer overlap",
+      "Trust/reputation",
+      "Ability to activate"
+    ],
+    "hypotheses": [
+      "Mutual value exchange",
+      "Willingness",
+      "Expected commercial contribution"
+    ],
+    "exclusions": [
+      "Opt-out or restricted contact",
+      "Unresolved identity",
+      "Unsupported claims or unapproved terms",
+      "Conflicting active outreach",
+      "Commercial model outside client authority"
+    ]
+  },
+  "application": {
+    "status": "unreviewed_client_fit",
+    "reason": "Client-specific buyer overlap, economics and authority must be reviewed before activation.",
+    "buyer_icp_hypothesis": "Resolve from private program card"
+  },
+  "dream_tier": "Unassigned; relationship-level evidence and owner review required",
+  "context_card": "vault/30-Families/F10/F10.D/F10.D.2.md",
+  "job": {
+    "mission": "Research and grow appropriate Faith / civic community partnership relationships for the reviewed client program.",
+    "business_brief": "Type F10.D.2: Member discount through churches or civic groups. Apply client-specific offer, buyer ICP and authority. Investigate whether faith / civic community partnership can reach the client’s buyer ICP through this motion: A mission-aligned partnership brief; donation, institutional and fundraising terms require owner review.",
+    "success_criteria": "Supported identities and fit; sourced opportunity brief, fresh relationship context, owner and next action. No invented outcome.",
+    "authority": "Research public/authorized sources and prepare internal evidence, context and drafts. Do not send, publish, accept partners, promise terms, spend, change attribution or release payouts. Use fresh relationship context; observe suppression. Live activation requires reviewed client authority.",
+    "timezone": "America/New_York",
+    "start_hour": 9,
+    "hours_per_day": 8,
+    "weekdays": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "child_limit": 0
+  },
+  "source": "https://map.truerevenuepartnerships.com/resources/partnership-map/"
+}

@@ -1,0 +1,45 @@
+{
+  "checked_at": "2026-10-09",
+  "affiliate_base": {
+    "repository": "https://github.com/jbellsolutions/affiliate-manager-agent",
+    "commit": "1329a2b41633ffdcf93344e17e3a3ca3069487ec",
+    "adopt": [
+      "files/AGENTS.md",
+      "files/SOUL.md",
+      "docs/RELATIONSHIP-CARDS.md",
+      "relcore/",
+      "policies/permissions.json"
+    ]
+  },
+  "workforce_base": {
+    "repository": "https://github.com/jbellsolutions/system-one-hermes-trial",
+    "commit": "746655fd40f7b032af05492c6572a33b9b5218d6",
+    "old_name": "jev-workforce-hermes-trial"
+  },
+  "public_pages": [
+    {
+      "url": "https://map.truerevenuepartnerships.com/",
+      "html_sha256": "d0cc72460e32bda489f2fa346b1d16cb82f11cc98db350ee7e0562058cf87ae0"
+    },
+    {
+      "url": "https://map.truerevenuepartnerships.com/resources/partnership-map/",
+      "html_sha256": "27bce428654fe8de54cd0cd46e56e3f31952005426b157c35958337bca7de158"
+    },
+    {
+      "url": "https://systemoneworkers.com/",
+      "html_sha256": "581a8c0689fb232649985a3a521468829aed5e4f457440b6457ef52997cb923e"
+    }
+  ],
+  "typesafe_docs": [
+    "https://docs.typesafe.ai/concepts/how-to-build-with-system-one",
+    "https://docs.typesafe.ai/cookbooks/hierarchical_classification",
+    "https://docs.typesafe.ai/confidence"
+  ],
+  "not_imported": [
+    "private contacts",
+    "browser sessions",
+    "credentials",
+    "untracked affiliate-manager RELATIONSHIP-LAYER proposal",
+    "Phase 0 employee homes"
+  ]
+}

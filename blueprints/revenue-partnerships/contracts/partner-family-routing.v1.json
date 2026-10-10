@@ -1,0 +1,40 @@
+{
+  "name": "partner-family-routing",
+  "version": 1,
+  "instructions": "Classify the PRIMARY commercial relationship described by the supplied evidence, not the general occupation of the organization. Select insufficient_evidence if economics, audience control or responsibility is unclear. Do not invent terms or authorization. This is an advisory classification, never approval to act.",
+  "minimum_confidence": 0.85,
+  "options": {
+    "F1": "Affiliates are independent publishers, creators, list owners or businesses who promote an offer to their audience and are paid only on a tracked outcome (sale, lead, call, install or signup), attributed by link, code or platform.",
+    "F2": "Influencers & Creators are individuals paid at least partly in cash, product, retainer or equity for their content, endorsement or creative voice.",
+    "F3": "A sponsorship is a paid placement (cash or in-kind) inside media, a property or an event that someone else owns and controls.",
+    "F4": "Co-Promotion is two or more businesses jointly promoting an event, offer or content piece to their combined audiences.",
+    "F5": "Stages & Media is earned or arranged exposure where you appear as a guest, speaker, expert or source on a platform someone else owns.",
+    "F6": "Referral & Power Partners are businesses and professionals who already serve your buyers and send you specific named introductions, or endorse your offer to their customers.",
+    "F7": "Access Partners are organizations that own a group your buyers already belong to: members, franchisees, employees, community members or attendees.",
+    "F8": "Channel Partners are third parties who resell, deliver, embed or distribute your offer.",
+    "F9": "Strategic Alliances & Licensing are long-term contractual or equity arrangements that share intellectual property, brand, method, territory, ownership or operations, beyond any single campaign or sale.",
+    "F10": "Cause & Nonprofit Partners are charities, schools, teams, faith and civic groups where the business's contribution (a percentage of sales, a donation per unit, a fundraiser share or in-kind support) produces revenue, traffic or community access in return.",
+    "F11": "House Partners are the business's own base: customers, past buyers, old leads, employees, contractors and alumni.",
+    "insufficient_evidence": "The relationship is unclear or not covered by evidence"
+  },
+  "examples": [
+    {
+      "state": {
+        "relationship": "An independent newsletter promotes an offer and is paid only on tracked sales."
+      },
+      "expected": "F1"
+    },
+    {
+      "state": {
+        "relationship": "A podcast sells a paid mid-roll advertising placement, regardless of sales."
+      },
+      "expected": "F3"
+    },
+    {
+      "state": {
+        "relationship": "We want to work with a creator; payment and responsibility are unknown."
+      },
+      "expected": "insufficient_evidence"
+    }
+  ]
+}

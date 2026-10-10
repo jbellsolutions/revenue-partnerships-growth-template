@@ -1,0 +1,38 @@
+{
+  "name": "partner-fit-disposition",
+  "version": 1,
+  "instructions": "Using only supplied partner facts, client ICP and restrictions, choose research_ready when verified identity and buyer overlap support internal opportunity planning; needs_evidence when facts are missing; hold when contact restrictions, conflicts or an unauthorized commercial model apply. This decision never authorizes outreach or partner acceptance.",
+  "minimum_confidence": 0.85,
+  "options": {
+    "research_ready": "Supported identity and buyer overlap; eligible for internal planning only",
+    "needs_evidence": "Relevant facts or terms are missing or unverified",
+    "hold": "Restriction, conflicting outreach or commercial model outside authority"
+  },
+  "examples": [
+    {
+      "state": {
+        "verified_identity": true,
+        "verified_buyer_overlap": true,
+        "restricted": false,
+        "commercial_model_allowed": true
+      },
+      "expected": "research_ready"
+    },
+    {
+      "state": {
+        "verified_identity": true,
+        "verified_buyer_overlap": null,
+        "restricted": false
+      },
+      "expected": "needs_evidence"
+    },
+    {
+      "state": {
+        "verified_identity": true,
+        "verified_buyer_overlap": true,
+        "restricted": true
+      },
+      "expected": "hold"
+    }
+  ]
+}

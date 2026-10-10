@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "partner-type-f1-c-7",
+  "type_id": "F1.C.7",
+  "name": "Pay-per-call publisher / call network",
+  "family_id": "F1",
+  "family": "Affiliates",
+  "subcategory_id": "F1.C",
+  "subcategory": "Performance & paid-traffic affiliates",
+  "definition": "Drives qualified inbound calls",
+  "illustrative_example": "Insurance or legal call network",
+  "knowledge_maturity": "generated_seed_requires_dossier_review",
+  "activation": "disabled",
+  "runtime_role": "proposed_partner_type_specialist",
+  "relationship_owner": "Assigned by Growth Director per client/relationship",
+  "avatar": "Decision-maker responsible for Drives qualified inbound calls; verify role, authority and individual context.",
+  "ideal_partner_profile": {
+    "buyer_overlap": "Documented access to the client’s actual buyer ICP",
+    "type_evidence": "Drives qualified inbound calls",
+    "readiness": "A real decision-maker, plausible incentive and feasible activation milestone"
+  },
+  "customer_icp": "Resolved from each private client program card; never inherited from another client",
+  "lead_opportunities": [
+    {
+      "hypothesis": "Investigate whether pay-per-call publisher / call network can reach the client’s buyer ICP through this motion: A permission-based tracked introduction or useful audience recommendation, under reviewed affiliate terms.",
+      "sources": [
+        "Public publisher/affiliate program pages",
+        "Niche content and recommendation archives",
+        "Owner-authorized existing partner records"
+      ],
+      "queries": [
+        "\"Pay-per-call publisher / call network\" {buyer_topic} {region}",
+        "Drives qualified inbound calls {buyer_topic} partner",
+        "\"Performance & paid-traffic affiliates\" {offer_category}"
+      ],
+      "evidence_required": [
+        "Canonical organization/person and source URL",
+        "Actual buyer overlap and relevant recent activity",
+        "Observed channel/reach; unknown values stay unknown",
+        "Prior relationship, restrictions and feasible next step"
+      ]
+    }
+  ],
+  "commercial_model_reference": "Per qualified call",
+  "commercial_terms_status": "Reference only; client owner must approve actual terms",
+  "qualification": {
+    "facts": [
+      "Identity/type match",
+      "Buyer overlap",
+      "Trust/reputation",
+      "Ability to activate"
+    ],
+    "hypotheses": [
+      "Mutual value exchange",
+      "Willingness",
+      "Expected commercial contribution"
+    ],
+    "exclusions": [
+      "Opt-out or restricted contact",
+      "Unresolved identity",
+      "Unsupported claims or unapproved terms",
+      "Conflicting active outreach",
+      "Commercial model outside client authority"
+    ]
+  },
+  "application": {
+    "status": "unreviewed_client_fit",
+    "reason": "Client-specific buyer overlap, economics and authority must be reviewed before activation.",
+    "buyer_icp_hypothesis": "Resolve from private program card"
+  },
+  "dream_tier": "Unassigned; relationship-level evidence and owner review required",
+  "context_card": "vault/30-Families/F1/F1.C/F1.C.7.md",
+  "job": {
+    "mission": "Research and grow appropriate Pay-per-call publisher / call network relationships for the reviewed client program.",
+    "business_brief": "Type F1.C.7: Drives qualified inbound calls. Apply client-specific offer, buyer ICP and authority. Investigate whether pay-per-call publisher / call network can reach the client’s buyer ICP through this motion: A permission-based tracked introduction or useful audience recommendation, under reviewed affiliate terms.",
+    "success_criteria": "Supported identities and fit; sourced opportunity brief, fresh relationship context, owner and next action. No invented outcome.",
+    "authority": "Research public/authorized sources and prepare internal evidence, context and drafts. Do not send, publish, accept partners, promise terms, spend, change attribution or release payouts. Use fresh relationship context; observe suppression. Live activation requires reviewed client authority.",
+    "timezone": "America/New_York",
+    "start_hour": 9,
+    "hours_per_day": 8,
+    "weekdays": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "child_limit": 0
+  },
+  "source": "https://map.truerevenuepartnerships.com/resources/partnership-map/"
+}

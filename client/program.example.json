@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "client_id": "CHANGE_ME",
+  "business": null,
+  "offer": null,
+  "buyer_icp": null,
+  "program_goal": null,
+  "approved_claims": [],
+  "prohibited_claims": [],
+  "commercial_terms": {
+    "status": "unapproved",
+    "commission": null,
+    "eligible_conversion": null,
+    "attribution_window": null,
+    "refunds": null,
+    "payouts": null
+  },
+  "relationship_owner": null,
+  "approver": null,
+  "selected_types": [],
+  "external_dispatch": "human_send_only",
+  "connections": {
+    "attio": "not_connected",
+    "clickup": "not_connected",
+    "affiliate_platform": "not_connected"
+  },
+  "budget": {
+    "approved_limit": null,
+    "workforce_trial_lifetime_cap_usd": 10
+  },
+  "readiness": "intake_required"
+}

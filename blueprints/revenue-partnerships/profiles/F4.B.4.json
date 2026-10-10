@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "partner-type-f4-b-4",
+  "type_id": "F4.B.4",
+  "name": "Co-sponsored giveaway / loop giveaway",
+  "family_id": "F4",
+  "family": "Co-Promotion",
+  "subcategory_id": "F4.B",
+  "subcategory": "Joint launches & offers",
+  "definition": "Pooled prizes; entrants opt in to all partners",
+  "illustrative_example": "Multi-brand giveaway",
+  "knowledge_maturity": "generated_seed_requires_dossier_review",
+  "activation": "disabled",
+  "runtime_role": "proposed_partner_type_specialist",
+  "relationship_owner": "Assigned by Growth Director per client/relationship",
+  "avatar": "Decision-maker responsible for Pooled prizes; entrants opt in to all partners; verify role, authority and individual context.",
+  "ideal_partner_profile": {
+    "buyer_overlap": "Documented access to the client’s actual buyer ICP",
+    "type_evidence": "Pooled prizes; entrants opt in to all partners",
+    "readiness": "A real decision-maker, plausible incentive and feasible activation milestone"
+  },
+  "customer_icp": "Resolved from each private client program card; never inherited from another client",
+  "lead_opportunities": [
+    {
+      "hypothesis": "Investigate whether co-sponsored giveaway / loop giveaway can reach the client’s buyer ICP through this motion: A mutually useful co-produced event, content resource or shared campaign with agreed responsibilities.",
+      "sources": [
+        "Public event and collaboration archives",
+        "Complementary offer/partner pages",
+        "Public launch calendars"
+      ],
+      "queries": [
+        "\"Co-sponsored giveaway / loop giveaway\" {buyer_topic} {region}",
+        "Pooled prizes; entrants opt in to all partners {buyer_topic} partner",
+        "\"Joint launches & offers\" {offer_category}"
+      ],
+      "evidence_required": [
+        "Canonical organization/person and source URL",
+        "Actual buyer overlap and relevant recent activity",
+        "Observed channel/reach; unknown values stay unknown",
+        "Prior relationship, restrictions and feasible next step"
+      ]
+    }
+  ],
+  "commercial_model_reference": "Shared list",
+  "commercial_terms_status": "Reference only; client owner must approve actual terms",
+  "qualification": {
+    "facts": [
+      "Identity/type match",
+      "Buyer overlap",
+      "Trust/reputation",
+      "Ability to activate"
+    ],
+    "hypotheses": [
+      "Mutual value exchange",
+      "Willingness",
+      "Expected commercial contribution"
+    ],
+    "exclusions": [
+      "Opt-out or restricted contact",
+      "Unresolved identity",
+      "Unsupported claims or unapproved terms",
+      "Conflicting active outreach",
+      "Commercial model outside client authority"
+    ]
+  },
+  "application": {
+    "status": "unreviewed_client_fit",
+    "reason": "Client-specific buyer overlap, economics and authority must be reviewed before activation.",
+    "buyer_icp_hypothesis": "Resolve from private program card"
+  },
+  "dream_tier": "Unassigned; relationship-level evidence and owner review required",
+  "context_card": "vault/30-Families/F4/F4.B/F4.B.4.md",
+  "job": {
+    "mission": "Research and grow appropriate Co-sponsored giveaway / loop giveaway relationships for the reviewed client program.",
+    "business_brief": "Type F4.B.4: Pooled prizes; entrants opt in to all partners. Apply client-specific offer, buyer ICP and authority. Investigate whether co-sponsored giveaway / loop giveaway can reach the client’s buyer ICP through this motion: A mutually useful co-produced event, content resource or shared campaign with agreed responsibilities.",
+    "success_criteria": "Supported identities and fit; sourced opportunity brief, fresh relationship context, owner and next action. No invented outcome.",
+    "authority": "Research public/authorized sources and prepare internal evidence, context and drafts. Do not send, publish, accept partners, promise terms, spend, change attribution or release payouts. Use fresh relationship context; observe suppression. Live activation requires reviewed client authority.",
+    "timezone": "America/New_York",
+    "start_hour": 9,
+    "hours_per_day": 8,
+    "weekdays": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "child_limit": 0
+  },
+  "source": "https://map.truerevenuepartnerships.com/resources/partnership-map/"
+}
