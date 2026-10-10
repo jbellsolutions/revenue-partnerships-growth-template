@@ -33,7 +33,7 @@ class Runtime(unittest.TestCase):
   with tempfile.TemporaryDirectory() as tmp, patch.dict(os.environ,{'TRP_REPO':str(ROOT),'RELCORE_HOME':tmp+'/relationship','RELCORE_VAULT':tmp+'/vault','RELCORE_MODE':'plugin'}):
    s=Server('plugin');person=s.store.upsert('person','Synthetic',identities={'email':'stale@example.com'},by='owner',source='owner')
    check=drafting.check_draft(s.store,ps_id=None,person_id=person,channel='email',subject='Hello',body='A synthetic draft',digest='not-current',first_touch=False,sender={'name':'Owner','business':'Synthetic'})
-   self.assertFalse(check['ok']);self.assertTrue(any('stale' in e for e in check['errors']))
+   self.assertFalse(check['ok']);self.assertTrue(any('stale' in e for e in check['errors']));s.store.con.close()
  def test_full_dossier_routing(self):
   env={**os.environ,'TRP_REPO':str(ROOT),'RELCORE_TAXONOMY':str(ROOT/'blueprints/revenue-partnerships/catalog/taxonomy.json')}
   code='from relcore.taxonomy import index,dossier; assert len(index())==339; assert all(dossier(t)["fit_signals"] for t in index()); print("339 runtime dossiers resolved")'

@@ -2,7 +2,7 @@
 import argparse,json,os,shutil,sys
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
-def install(profile,client):
+def install(profile,client,preserve_native_seed=False):
  import yaml
  profile=Path(profile).resolve();client=Path(client).resolve()
  program=json.loads((client/'client/program.json').read_text())
@@ -10,6 +10,12 @@ def install(profile,client):
  marker=profile/'revenue-install.json'
  if marker.exists(): raise ValueError('Already installed; use a reviewed update/backup procedure')
  if not profile.is_dir(): raise ValueError('Create a fresh native Hermes profile first')
+ if preserve_native_seed:
+  if any((profile/'sessions').iterdir()) or (profile/'private-business').exists():
+   raise ValueError('Profile has existing client state; use a reviewed migration')
+  backup=profile/'native-seed-backup';backup.mkdir(mode=0o700)
+  for name in ['AGENTS.md','SOUL.md','skills']:
+   if (profile/name).exists(): shutil.move(str(profile/name),str(backup/name))
  for name in ['AGENTS.md','SOUL.md']:
   if (profile/name).exists(): raise ValueError('Existing identity file: '+name)
  if any((profile/'skills').glob('**/SKILL.md')): raise ValueError('Profile already contains skills')
@@ -35,4 +41,4 @@ def install(profile,client):
  marker.write_text(json.dumps({'client_id':program['client_id'],'template':str(ROOT),'skills':12,'dispatch':'human_send_only','native_connections':'pending'},indent=2)+'\n');marker.chmod(0o600)
  print('Installed 12 skills and isolated drafts-only MCP; authentication/native answer/connections still require verification.')
 if __name__=='__main__':
- p=argparse.ArgumentParser(description=__doc__);p.add_argument('--profile',required=True);p.add_argument('--client',required=True);a=p.parse_args();install(a.profile,a.client)
+ p=argparse.ArgumentParser(description=__doc__);p.add_argument('--profile',required=True);p.add_argument('--client',required=True);p.add_argument('--preserve-native-seed',action='store_true');a=p.parse_args();install(a.profile,a.client,a.preserve_native_seed)
